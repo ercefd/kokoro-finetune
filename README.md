@@ -1,5 +1,11 @@
 # kokoro
 
+> **Note:** This fork's `main` branch is a patched version of the original [hexgrad/kokoro](https://github.com/hexgrad/kokoro) repository. It is maintained specifically as a git submodule for the **[kokoro-turkish](https://github.com/ercefd/kokoro-turkish)** training recipe.
+>
+> Please see the **[kokoro-turkish](https://github.com/ercefd/kokoro-turkish)** repository for the full end-to-end training guide, dataset preparation scripts, and voicepack extraction tools.
+
+---
+
 An inference library for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M). You can [`pip install kokoro`](https://pypi.org/project/kokoro/).
 
 > **Kokoro** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.
